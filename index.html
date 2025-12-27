@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main-heading">राधा राधा</h1>
+    <div id="main-circle" class="center-wrap">
+        <div id="circle">
+            <svg id="progress-svg" viewBox="0 0 350 350">
+            <circle
+                id="progress-ring"
+                r="172"
+                cx="175"
+                cy="175"
+                fill="none"
+                stroke="#000"
+                stroke-width="6"
+            />
+        </svg>
+            <div id="count">0 / 108</div>
+        </div>
+    </div>
+
+    <div id="all-num">
+        <div id="num-count">count: </div>
+        <div id="mala-count">mala: </div>
+    </div>
+    <div id="start">
+    <button id="start-btn">Start</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
